@@ -1,0 +1,60 @@
+/* Responsive */
+body {
+  font-family: "", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a {
+  display: inline-block;
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0; }
+
+header, section, article, nav, div {
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+figure {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+._row {
+  display: -ms-flexbox;
+  display: flex; }
+
+._column {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+._text-center {
+  text-align: center; }
+
+@media (max-width: 480px) {
+  .-xs-column {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+
+  .-xs-reverse {
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse; } }
+
+/*# sourceMappingURL=main.css.map */
